@@ -2,10 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>beforeRunningCommand</key>
-	<string>nop</string>
-	<key>command</key>
-	<string>#! /usr/bin/python
+    <key>beforeRunningCommand</key>
+    <string>nop</string>
+    <key>command</key>
+    <string>#! /usr/bin/python
 
 import os, sys
 
@@ -17,19 +17,19 @@ if not os.path.isfile(d[0]):
 
 os.system('open -a textmate %s' % d[0])
 </string>
-	<key>fallbackInput</key>
-	<string>line</string>
-	<key>input</key>
-	<string>selection</string>
-	<key>keyEquivalent</key>
-	<string>@</string>
-	<key>name</key>
-	<string>display the results in a new document</string>
-	<key>output</key>
-	<string>showAsTooltip</string>
-	<key>scope</key>
-	<string></string>
-	<key>uuid</key>
-	<string>89D86BB7-D837-4EE5-AFED-A3C5A60B1511</string>
+    <key>fallbackInput</key>
+    <string>line</string>
+    <key>input</key>
+    <string>selection</string>
+    <key>keyEquivalent</key>
+    <string>@</string>
+    <key>name</key>
+    <string>display the results in a new document</string>
+    <key>output</key>
+    <string>showAsTooltip</string>
+    <key>scope</key>
+    <string></string>
+    <key>uuid</key>
+    <string>89D86BB7-D837-4EE5-AFED-A3C5A60B1511</string>
 </dict>
 </plist>
