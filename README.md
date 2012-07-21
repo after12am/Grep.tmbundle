@@ -11,9 +11,9 @@ To grep, execute `Filter Through Command...` which is in Text menu, and then set
 
     grep -r "search word" ~/path/to/the/project/dir
 
-If you get the following result, this bundle works good.
+If you would get result like following, this bundle works good.
 
-    /Users/{#name}/Desktop/Grep.tmbundle/info.plist:&lt;plist version=&quot;1.0&quot;&gt;
+    /Users/{#name}/Desktop/Grep.tmbundle/info.plist:<plist version="1.0">
 
 ## Note
 
