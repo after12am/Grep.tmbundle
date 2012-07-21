@@ -22,7 +22,7 @@ os.system('open -a textmate %s' % d[0])
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string></string>
+	<string>@</string>
 	<key>name</key>
 	<string>display the results in a new document</string>
 	<key>output</key>
