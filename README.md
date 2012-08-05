@@ -9,7 +9,7 @@ I incorporate sakura editor's grep into textmate for mates.
 
 To grep, execute `Filter Through Command...` which is in Text menu, and then set `Selection` in the input radio box, `Create New Document` in the output radio box and following command in the command input field.
 
-    grep -r "search word" ~/path/to/the/project/dir
+    grep -rn "search word" ~/path/to/the/project/dir
 
 If you would get result like following, this bundle works good.
 
@@ -18,3 +18,4 @@ If you would get result like following, this bundle works good.
 ## Note
 
 * When you set the grep command, you has to use absolute path. If you use relational path, this bundle will not work.
+* If you would save result, please save with no extension.
