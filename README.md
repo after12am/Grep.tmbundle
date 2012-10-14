@@ -3,7 +3,8 @@ Grep Textmate Bundle
 
 ## Prologue
 
-I incorporate sakura editor's grep into textmate for mates.
+At first I used sakura editor as editor in windows. And then, I uses textmate in mac now. After I often got to use textmate, I have been dissatisfied with textmate in use of grep.  
+So I incorporated usability of sakura editor into textmate as bundle. 
 
 ## Usage
 
