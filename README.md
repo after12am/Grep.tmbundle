@@ -15,6 +15,8 @@ If you would get result like following, this bundle works good.
 
     /Users/{#name}/Desktop/Grep.tmbundle/info.plist:<plist version="1.0">
 
+Focus on the line, and run `command + enter`. Since the File would be opened, you could check the line.
+
 ## Note
 
 * When you set the grep command, you has to use absolute path. If you use relational path, this bundle will not work.
