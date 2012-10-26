@@ -1,7 +1,7 @@
 Grep Textmate Bundle
 ====================
 
-How have you done grep in mac? I had executed grep command in terminal. This way made me so frustrated. Every time I executed command, I was disappointed that textmate don't provide good way to grep specific keywords. So I decided to make up how to grep using bundle that provided by textmate. I surely think that this bundle would help you.
+How have you done grep in mac? I had executed grep command in terminal. This way made me so frustrated. Every time I executed command, I was disappointed that textmate don't provide better way to grep than `Find in Project`. I think that both of this two ways are awkward compared with sakura editor. So inspired by sakura editor, I decided to make up how to grep using bundle that textmate provides. I hope that this bundle would help you.
 
 ## Usage
 
@@ -13,7 +13,7 @@ If you would get result like following, this bundle works good.
 
     /Users/{#name}/Desktop/Grep.tmbundle/info.plist:<plist version="1.0">
 
-Focus on the line, and run `command + enter`. Since the File would be opened, you could check the line.
+Focus on the line, and run `command + enter`. The file that you want is opened.
 
 ## Note
 
