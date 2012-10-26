@@ -1,7 +1,7 @@
 Grep Textmate Bundle
 ====================
 
-At first I used sakura editor as editor in windows. And then, I uses textmate in mac now. After I often got to use textmate, I have been dissatisfied with textmate in use of grep. So I incorporated usability of sakura editor into textmate as bundle.
+How have you done grep in mac? I had executed grep command in terminal. This way made me so frustrated. Every time I executed command, I was disappointed that textmate don't provide good way to grep specific keywords. So I decided to make up how to grep using bundle that provided by textmate. I surely think that this bundle would help you.
 
 ## Usage
 
