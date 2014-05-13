@@ -7,7 +7,7 @@ How have you done grep in mac? I had executed grep command in terminal. This way
 
 To grep, execute `Filter Through Command...` which is in Text menu, and then set `Selection` in the input radio box, `Create New Document` in the output radio box and following command in the command input field.
 
-    grep -rn "search word" ~/path/to/the/project/dir
+    grep -irn "search word" ~/path/to/the/project/dir
 
 If you would get result like following, this bundle works good.
 
