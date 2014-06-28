@@ -17,8 +17,12 @@ if not os.path.isfile(d[0]):
     print "no such file or directory"
     exit(0);
 
-if p.match(d[1]):
-    l = d[1]
+try:
+    if p.match(d[1]):
+        l = d[1]
+except:
+    os.system('mate %s' % (d[0],))
+    exit(0);
 
 os.system('mate -l %s %s' % (l, d[0]))
 </string>
@@ -27,7 +31,8 @@ os.system('mate -l %s %s' % (l, d[0]))
     <key>input</key>
     <string>selection</string>
     <key>keyEquivalent</key>
-    <string>@</string>
+    <string>@
+</string>
     <key>name</key>
     <string>display the results in a new document</string>
     <key>output</key>
